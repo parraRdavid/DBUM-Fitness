@@ -21,7 +21,7 @@ class api1ViewModel: ObservableObject {
     func fetchExercises() {
         
         
-        let apiKey = "WwbpZ8xfj/7dfz3/zV8hSw==OsArerh8j4Pz1XU6"
+        let apiKey = "WwbpZ8xfj/7dfz3/zV8hSw==OsArerh8j4Pz1XU677"
         let urlString = "https://api.api-ninjas.com/v1/exercises?muscle=\(selectedMuscle)"
         guard let url = URL(string: urlString) else {
             print("Invalid URL")
