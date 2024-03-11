@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8810155E2B0BE37500798DF1 /* api1DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810155D2B0BE37500798DF1 /* api1DetailView.swift */; };
+		881015602B0BEC4200798DF1 /* api2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810155F2B0BEC4200798DF1 /* api2ViewModel.swift */; };
+		8836C6A52B0C0954001E6A55 /* apiHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8836C6A42B0C0954001E6A55 /* apiHub.swift */; };
+		8836C6A72B0C0F2F001E6A55 /* accountRequirementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8836C6A62B0C0F2F001E6A55 /* accountRequirementsView.swift */; };
+		8836C6AC2B0C14D4001E6A55 /* workout_exercise_ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8836C6AB2B0C14D4001E6A55 /* workout_exercise_ViewModel.swift */; };
+		8836C6AE2B0C15B7001E6A55 /* workoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8836C6AD2B0C15B7001E6A55 /* workoutListView.swift */; };
+		8836C6B02B0C15CC001E6A55 /* inputWorkoutToListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8836C6AF2B0C15CC001E6A55 /* inputWorkoutToListView.swift */; };
+		8836C6B22B0C20CF001E6A55 /* exerciseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8836C6B12B0C20CF001E6A55 /* exerciseListView.swift */; };
+		8836C6B42B0C22D5001E6A55 /* inputExerciseToListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8836C6B32B0C22D5001E6A55 /* inputExerciseToListView.swift */; };
+		8845C6652B06D23C00F597AA /* inputMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845C6642B06D23C00F597AA /* inputMealView.swift */; };
+		8850407D2AF70EE3002E526D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8850407C2AF70EE3002E526D /* GoogleService-Info.plist */; };
+		88687BEE2B01C43600B12608 /* MealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88687BED2B01C43600B12608 /* MealViewModel.swift */; };
+		88687BF02B01D6EF00B12608 /* mealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88687BEF2B01D6EF00B12608 /* mealListView.swift */; };
+		889954942B099CF800F6187A /* api1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889954932B099CF800F6187A /* api1View.swift */; };
+		889954962B09A8B300F6187A /* api2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889954952B09A8B300F6187A /* api2View.swift */; };
+		88AA53552B02D28B0037540F /* mealDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AA53542B02D28B0037540F /* mealDetailsView.swift */; };
+		88B572D12AFF540600706433 /* searchGymView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B572D02AFF540600706433 /* searchGymView.swift */; };
+		88C108792AF6041C0009B3C1 /* Dbum_FitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C108782AF6041C0009B3C1 /* Dbum_FitnessApp.swift */; };
+		88C1087B2AF6041C0009B3C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1087A2AF6041C0009B3C1 /* ContentView.swift */; };
+		88C1087D2AF6041D0009B3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C1087C2AF6041D0009B3C1 /* Assets.xcassets */; };
+		88C108802AF6041D0009B3C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C1087F2AF6041D0009B3C1 /* Preview Assets.xcassets */; };
+		88C1088A2AF6041D0009B3C1 /* Dbum_FitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C108892AF6041D0009B3C1 /* Dbum_FitnessTests.swift */; };
+		88C108942AF6041D0009B3C1 /* Dbum_FitnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C108932AF6041D0009B3C1 /* Dbum_FitnessUITests.swift */; };
+		88C108962AF6041D0009B3C1 /* Dbum_FitnessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C108952AF6041D0009B3C1 /* Dbum_FitnessUITestsLaunchTests.swift */; };
+		88C108A52AF604460009B3C1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C108A42AF604460009B3C1 /* LoginView.swift */; };
+		88C108AC2AF606670009B3C1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 88C108AB2AF606670009B3C1 /* FirebaseAuth */; };
+		88C108AE2AF606670009B3C1 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 88C108AD2AF606670009B3C1 /* FirebaseDatabase */; };
+		88C108B02AF606670009B3C1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 88C108AF2AF606670009B3C1 /* FirebaseFirestore */; };
+		88C108B22AF606670009B3C1 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 88C108B12AF606670009B3C1 /* FirebaseFirestoreSwift */; };
+		88C108B42AF606950009B3C1 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C108B32AF606950009B3C1 /* AuthViewModel.swift */; };
+		88C108B62AF607E70009B3C1 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C108B52AF607E70009B3C1 /* SignUpView.swift */; };
+		88C108B82AF609D20009B3C1 /* CustomComps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C108B72AF609D20009B3C1 /* CustomComps.swift */; };
+		88C108BA2AF60E8B0009B3C1 /* MainHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C108B92AF60E8B0009B3C1 /* MainHubView.swift */; };
+		88C108BC2AF614700009B3C1 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C108BB2AF614700009B3C1 /* UserProfileView.swift */; };
+		88E3222B2B0BD77E001E89DE /* api1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E3222A2B0BD77E001E89DE /* api1ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88C108862AF6041D0009B3C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88C1086D2AF6041C0009B3C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88C108742AF6041C0009B3C1;
+			remoteInfo = "Dbum-Fitness";
+		};
+		88C108902AF6041D0009B3C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88C1086D2AF6041C0009B3C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88C108742AF6041C0009B3C1;
+			remoteInfo = "Dbum-Fitness";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8810155D2B0BE37500798DF1 /* api1DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api1DetailView.swift; sourceTree = "<group>"; };
+		8810155F2B0BEC4200798DF1 /* api2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api2ViewModel.swift; sourceTree = "<group>"; };
+		8836C6A42B0C0954001E6A55 /* apiHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiHub.swift; sourceTree = "<group>"; };
+		8836C6A62B0C0F2F001E6A55 /* accountRequirementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountRequirementsView.swift; sourceTree = "<group>"; };
+		8836C6AB2B0C14D4001E6A55 /* workout_exercise_ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workout_exercise_ViewModel.swift; sourceTree = "<group>"; };
+		8836C6AD2B0C15B7001E6A55 /* workoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutListView.swift; sourceTree = "<group>"; };
+		8836C6AF2B0C15CC001E6A55 /* inputWorkoutToListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputWorkoutToListView.swift; sourceTree = "<group>"; };
+		8836C6B12B0C20CF001E6A55 /* exerciseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exerciseListView.swift; sourceTree = "<group>"; };
+		8836C6B32B0C22D5001E6A55 /* inputExerciseToListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputExerciseToListView.swift; sourceTree = "<group>"; };
+		8845C6642B06D23C00F597AA /* inputMealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputMealView.swift; sourceTree = "<group>"; };
+		8850407C2AF70EE3002E526D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		88687BED2B01C43600B12608 /* MealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewModel.swift; sourceTree = "<group>"; };
+		88687BEF2B01D6EF00B12608 /* mealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mealListView.swift; sourceTree = "<group>"; };
+		889954932B099CF800F6187A /* api1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api1View.swift; sourceTree = "<group>"; };
+		889954952B09A8B300F6187A /* api2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api2View.swift; sourceTree = "<group>"; };
+		88AA53542B02D28B0037540F /* mealDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mealDetailsView.swift; sourceTree = "<group>"; };
+		88B572D02AFF540600706433 /* searchGymView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchGymView.swift; sourceTree = "<group>"; };
+		88C108752AF6041C0009B3C1 /* Dbum-Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dbum-Fitness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C108782AF6041C0009B3C1 /* Dbum_FitnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dbum_FitnessApp.swift; sourceTree = "<group>"; };
+		88C1087A2AF6041C0009B3C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		88C1087C2AF6041D0009B3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88C1087F2AF6041D0009B3C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88C108852AF6041D0009B3C1 /* Dbum-FitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dbum-FitnessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C108892AF6041D0009B3C1 /* Dbum_FitnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dbum_FitnessTests.swift; sourceTree = "<group>"; };
+		88C1088F2AF6041D0009B3C1 /* Dbum-FitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dbum-FitnessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C108932AF6041D0009B3C1 /* Dbum_FitnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dbum_FitnessUITests.swift; sourceTree = "<group>"; };
+		88C108952AF6041D0009B3C1 /* Dbum_FitnessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dbum_FitnessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88C108A42AF604460009B3C1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		88C108B32AF606950009B3C1 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		88C108B52AF607E70009B3C1 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		88C108B72AF609D20009B3C1 /* CustomComps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComps.swift; sourceTree = "<group>"; };
+		88C108B92AF60E8B0009B3C1 /* MainHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHubView.swift; sourceTree = "<group>"; };
+		88C108BB2AF614700009B3C1 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		88E3222A2B0BD77E001E89DE /* api1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api1ViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88C108722AF6041C0009B3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C108AE2AF606670009B3C1 /* FirebaseDatabase in Frameworks */,
+				88C108AC2AF606670009B3C1 /* FirebaseAuth in Frameworks */,
+				88C108B02AF606670009B3C1 /* FirebaseFirestore in Frameworks */,
+				88C108B22AF606670009B3C1 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C108822AF6041D0009B3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C1088C2AF6041D0009B3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8836C6A82B0C1420001E6A55 /* myWorkoutFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8836C6AB2B0C14D4001E6A55 /* workout_exercise_ViewModel.swift */,
+				8836C6B12B0C20CF001E6A55 /* exerciseListView.swift */,
+				8836C6AD2B0C15B7001E6A55 /* workoutListView.swift */,
+				8836C6B32B0C22D5001E6A55 /* inputExerciseToListView.swift */,
+				8836C6AF2B0C15CC001E6A55 /* inputWorkoutToListView.swift */,
+			);
+			path = myWorkoutFiles;
+			sourceTree = "<group>";
+		};
+		88687BE42B01BEEC00B12608 /* SearchGymFunction */ = {
+			isa = PBXGroup;
+			children = (
+				88B572D02AFF540600706433 /* searchGymView.swift */,
+			);
+			path = SearchGymFunction;
+			sourceTree = "<group>";
+		};
+		88687BE72B01BF1500B12608 /* StartupViews */ = {
+			isa = PBXGroup;
+			children = (
+				88C108B32AF606950009B3C1 /* AuthViewModel.swift */,
+				8836C6A62B0C0F2F001E6A55 /* accountRequirementsView.swift */,
+				88C108A42AF604460009B3C1 /* LoginView.swift */,
+				88C108B52AF607E70009B3C1 /* SignUpView.swift */,
+			);
+			path = StartupViews;
+			sourceTree = "<group>";
+		};
+		88687BE82B01BF5700B12608 /* MiscFiles */ = {
+			isa = PBXGroup;
+			children = (
+				88C108B72AF609D20009B3C1 /* CustomComps.swift */,
+				88C1087A2AF6041C0009B3C1 /* ContentView.swift */,
+				88C108BB2AF614700009B3C1 /* UserProfileView.swift */,
+				88C108B92AF60E8B0009B3C1 /* MainHubView.swift */,
+			);
+			path = MiscFiles;
+			sourceTree = "<group>";
+		};
+		88687BEA2B01BFC400B12608 /* NutritionFiles */ = {
+			isa = PBXGroup;
+			children = (
+				88687BEF2B01D6EF00B12608 /* mealListView.swift */,
+				88687BED2B01C43600B12608 /* MealViewModel.swift */,
+				8845C6642B06D23C00F597AA /* inputMealView.swift */,
+				88AA53542B02D28B0037540F /* mealDetailsView.swift */,
+			);
+			path = NutritionFiles;
+			sourceTree = "<group>";
+		};
+		889954922B099CE300F6187A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				889954932B099CF800F6187A /* api1View.swift */,
+				889954952B09A8B300F6187A /* api2View.swift */,
+				8810155F2B0BEC4200798DF1 /* api2ViewModel.swift */,
+				88E3222A2B0BD77E001E89DE /* api1ViewModel.swift */,
+				8810155D2B0BE37500798DF1 /* api1DetailView.swift */,
+				8836C6A42B0C0954001E6A55 /* apiHub.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		88C1086C2AF6041C0009B3C1 = {
+			isa = PBXGroup;
+			children = (
+				88C108772AF6041C0009B3C1 /* Dbum-Fitness */,
+				88C108882AF6041D0009B3C1 /* Dbum-FitnessTests */,
+				88C108922AF6041D0009B3C1 /* Dbum-FitnessUITests */,
+				88C108762AF6041C0009B3C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88C108762AF6041C0009B3C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88C108752AF6041C0009B3C1 /* Dbum-Fitness.app */,
+				88C108852AF6041D0009B3C1 /* Dbum-FitnessTests.xctest */,
+				88C1088F2AF6041D0009B3C1 /* Dbum-FitnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88C108772AF6041C0009B3C1 /* Dbum-Fitness */ = {
+			isa = PBXGroup;
+			children = (
+				88C108782AF6041C0009B3C1 /* Dbum_FitnessApp.swift */,
+				88C1087C2AF6041D0009B3C1 /* Assets.xcassets */,
+				8850407C2AF70EE3002E526D /* GoogleService-Info.plist */,
+				8836C6A82B0C1420001E6A55 /* myWorkoutFiles */,
+				889954922B099CE300F6187A /* API */,
+				88687BEA2B01BFC400B12608 /* NutritionFiles */,
+				88687BE82B01BF5700B12608 /* MiscFiles */,
+				88687BE72B01BF1500B12608 /* StartupViews */,
+				88687BE42B01BEEC00B12608 /* SearchGymFunction */,
+				88C1087E2AF6041D0009B3C1 /* Preview Content */,
+			);
+			path = "Dbum-Fitness";
+			sourceTree = "<group>";
+		};
+		88C1087E2AF6041D0009B3C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				88C1087F2AF6041D0009B3C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88C108882AF6041D0009B3C1 /* Dbum-FitnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				88C108892AF6041D0009B3C1 /* Dbum_FitnessTests.swift */,
+			);
+			path = "Dbum-FitnessTests";
+			sourceTree = "<group>";
+		};
+		88C108922AF6041D0009B3C1 /* Dbum-FitnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88C108932AF6041D0009B3C1 /* Dbum_FitnessUITests.swift */,
+				88C108952AF6041D0009B3C1 /* Dbum_FitnessUITestsLaunchTests.swift */,
+			);
+			path = "Dbum-FitnessUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88C108742AF6041C0009B3C1 /* Dbum-Fitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C108992AF6041D0009B3C1 /* Build configuration list for PBXNativeTarget "Dbum-Fitness" */;
+			buildPhases = (
+				88C108712AF6041C0009B3C1 /* Sources */,
+				88C108722AF6041C0009B3C1 /* Frameworks */,
+				88C108732AF6041C0009B3C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dbum-Fitness";
+			packageProductDependencies = (
+				88C108AB2AF606670009B3C1 /* FirebaseAuth */,
+				88C108AD2AF606670009B3C1 /* FirebaseDatabase */,
+				88C108AF2AF606670009B3C1 /* FirebaseFirestore */,
+				88C108B12AF606670009B3C1 /* FirebaseFirestoreSwift */,
+			);
+			productName = "Dbum-Fitness";
+			productReference = 88C108752AF6041C0009B3C1 /* Dbum-Fitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88C108842AF6041D0009B3C1 /* Dbum-FitnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C1089C2AF6041D0009B3C1 /* Build configuration list for PBXNativeTarget "Dbum-FitnessTests" */;
+			buildPhases = (
+				88C108812AF6041D0009B3C1 /* Sources */,
+				88C108822AF6041D0009B3C1 /* Frameworks */,
+				88C108832AF6041D0009B3C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88C108872AF6041D0009B3C1 /* PBXTargetDependency */,
+			);
+			name = "Dbum-FitnessTests";
+			productName = "Dbum-FitnessTests";
+			productReference = 88C108852AF6041D0009B3C1 /* Dbum-FitnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88C1088E2AF6041D0009B3C1 /* Dbum-FitnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C1089F2AF6041D0009B3C1 /* Build configuration list for PBXNativeTarget "Dbum-FitnessUITests" */;
+			buildPhases = (
+				88C1088B2AF6041D0009B3C1 /* Sources */,
+				88C1088C2AF6041D0009B3C1 /* Frameworks */,
+				88C1088D2AF6041D0009B3C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88C108912AF6041D0009B3C1 /* PBXTargetDependency */,
+			);
+			name = "Dbum-FitnessUITests";
+			productName = "Dbum-FitnessUITests";
+			productReference = 88C1088F2AF6041D0009B3C1 /* Dbum-FitnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88C1086D2AF6041C0009B3C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					88C108742AF6041C0009B3C1 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					88C108842AF6041D0009B3C1 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 88C108742AF6041C0009B3C1;
+					};
+					88C1088E2AF6041D0009B3C1 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 88C108742AF6041C0009B3C1;
+					};
+				};
+			};
+			buildConfigurationList = 88C108702AF6041C0009B3C1 /* Build configuration list for PBXProject "Dbum-Fitness" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88C1086C2AF6041C0009B3C1;
+			packageReferences = (
+				88C108AA2AF606670009B3C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 88C108762AF6041C0009B3C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88C108742AF6041C0009B3C1 /* Dbum-Fitness */,
+				88C108842AF6041D0009B3C1 /* Dbum-FitnessTests */,
+				88C1088E2AF6041D0009B3C1 /* Dbum-FitnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88C108732AF6041C0009B3C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C108802AF6041D0009B3C1 /* Preview Assets.xcassets in Resources */,
+				88C1087D2AF6041D0009B3C1 /* Assets.xcassets in Resources */,
+				8850407D2AF70EE3002E526D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C108832AF6041D0009B3C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C1088D2AF6041D0009B3C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88C108712AF6041C0009B3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8836C6B22B0C20CF001E6A55 /* exerciseListView.swift in Sources */,
+				88687BF02B01D6EF00B12608 /* mealListView.swift in Sources */,
+				8836C6A52B0C0954001E6A55 /* apiHub.swift in Sources */,
+				8836C6AC2B0C14D4001E6A55 /* workout_exercise_ViewModel.swift in Sources */,
+				8836C6AE2B0C15B7001E6A55 /* workoutListView.swift in Sources */,
+				88C108B42AF606950009B3C1 /* AuthViewModel.swift in Sources */,
+				88C108BC2AF614700009B3C1 /* UserProfileView.swift in Sources */,
+				88AA53552B02D28B0037540F /* mealDetailsView.swift in Sources */,
+				88C108A52AF604460009B3C1 /* LoginView.swift in Sources */,
+				8836C6A72B0C0F2F001E6A55 /* accountRequirementsView.swift in Sources */,
+				88C108BA2AF60E8B0009B3C1 /* MainHubView.swift in Sources */,
+				88C1087B2AF6041C0009B3C1 /* ContentView.swift in Sources */,
+				88B572D12AFF540600706433 /* searchGymView.swift in Sources */,
+				88687BEE2B01C43600B12608 /* MealViewModel.swift in Sources */,
+				88E3222B2B0BD77E001E89DE /* api1ViewModel.swift in Sources */,
+				8836C6B02B0C15CC001E6A55 /* inputWorkoutToListView.swift in Sources */,
+				881015602B0BEC4200798DF1 /* api2ViewModel.swift in Sources */,
+				88C108B62AF607E70009B3C1 /* SignUpView.swift in Sources */,
+				8845C6652B06D23C00F597AA /* inputMealView.swift in Sources */,
+				8810155E2B0BE37500798DF1 /* api1DetailView.swift in Sources */,
+				88C108B82AF609D20009B3C1 /* CustomComps.swift in Sources */,
+				88C108792AF6041C0009B3C1 /* Dbum_FitnessApp.swift in Sources */,
+				889954942B099CF800F6187A /* api1View.swift in Sources */,
+				889954962B09A8B300F6187A /* api2View.swift in Sources */,
+				8836C6B42B0C22D5001E6A55 /* inputExerciseToListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C108812AF6041D0009B3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C1088A2AF6041D0009B3C1 /* Dbum_FitnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C1088B2AF6041D0009B3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C108942AF6041D0009B3C1 /* Dbum_FitnessUITests.swift in Sources */,
+				88C108962AF6041D0009B3C1 /* Dbum_FitnessUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88C108872AF6041D0009B3C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88C108742AF6041C0009B3C1 /* Dbum-Fitness */;
+			targetProxy = 88C108862AF6041D0009B3C1 /* PBXContainerItemProxy */;
+		};
+		88C108912AF6041D0009B3C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88C108742AF6041C0009B3C1 /* Dbum-Fitness */;
+			targetProxy = 88C108902AF6041D0009B3C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		88C108972AF6041D0009B3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88C108982AF6041D0009B3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88C1089A2AF6041D0009B3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dbum-Fitness/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dbum.Dbum-Fitness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88C1089B2AF6041D0009B3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dbum-Fitness/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dbum.Dbum-Fitness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88C1089D2AF6041D0009B3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dbum.Dbum-FitnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dbum-Fitness.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dbum-Fitness";
+			};
+			name = Debug;
+		};
+		88C1089E2AF6041D0009B3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dbum.Dbum-FitnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dbum-Fitness.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dbum-Fitness";
+			};
+			name = Release;
+		};
+		88C108A02AF6041D0009B3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dbum.Dbum-FitnessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dbum-Fitness";
+			};
+			name = Debug;
+		};
+		88C108A12AF6041D0009B3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dbum.Dbum-FitnessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dbum-Fitness";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88C108702AF6041C0009B3C1 /* Build configuration list for PBXProject "Dbum-Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C108972AF6041D0009B3C1 /* Debug */,
+				88C108982AF6041D0009B3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C108992AF6041D0009B3C1 /* Build configuration list for PBXNativeTarget "Dbum-Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C1089A2AF6041D0009B3C1 /* Debug */,
+				88C1089B2AF6041D0009B3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C1089C2AF6041D0009B3C1 /* Build configuration list for PBXNativeTarget "Dbum-FitnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C1089D2AF6041D0009B3C1 /* Debug */,
+				88C1089E2AF6041D0009B3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C1089F2AF6041D0009B3C1 /* Build configuration list for PBXNativeTarget "Dbum-FitnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C108A02AF6041D0009B3C1 /* Debug */,
+				88C108A12AF6041D0009B3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		88C108AA2AF606670009B3C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		88C108AB2AF606670009B3C1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88C108AA2AF606670009B3C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		88C108AD2AF606670009B3C1 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88C108AA2AF606670009B3C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		88C108AF2AF606670009B3C1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88C108AA2AF606670009B3C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		88C108B12AF606670009B3C1 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88C108AA2AF606670009B3C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 88C1086D2AF6041C0009B3C1 /* Project object */;
+}
